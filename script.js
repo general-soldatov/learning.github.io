@@ -29,7 +29,7 @@ btn1.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -39,7 +39,7 @@ btn2.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -49,7 +49,7 @@ btn3.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -59,7 +59,7 @@ btn4.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -69,7 +69,7 @@ btn5.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -79,7 +79,7 @@ btn6.onclick = () => {
         tg.MainButton.hide()
     } else {
         tg.MainButton.setText("Вы выбрали товар морковь!")
-        item = "морковь"
+        // item = "морковь"
         tg.MainButton.show()
     }
 }
@@ -87,6 +87,7 @@ btn6.onclick = () => {
 // Telegram.WebApp.onEvent("mainButtonClicked", function() {
 //     tg.sendData(item);
 // })
+
 
 
 
