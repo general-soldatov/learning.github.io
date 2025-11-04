@@ -30,6 +30,10 @@ img {
     background: lightblue;
 }
 
+.reg {
+    margin-top: 20px;
+}
+
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,4 +62,20 @@ img {
     background: lightblue;
 }
 
+input {
+    width: 100px;
+}
 
+#result {
+    text-align: center;
+}
+
+#submit {
+    padding: 20px;
+    background: rgb(248, 168, 25);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    border-radius: 10px;
+    border: none;
+}
