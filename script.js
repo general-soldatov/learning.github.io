@@ -6,7 +6,7 @@ tg.expand();
 
 // let item = "";
 
-// let btn = document.querySelector("#click");
+let btn = document.querySelector("#click");
 // let btn1 = document.querySelector("#btn1");
 // let btn2 = document.querySelector("#btn2");
 // let btn3 = document.querySelector("#btn3");
@@ -87,6 +87,7 @@ btn.onclick = () => {
 // Telegram.WebApp.onEvent("mainButtonClicked", function() {
 //     tg.sendData(item);
 // })
+
 
 
 
