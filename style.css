@@ -5,7 +5,7 @@ body {
     margin-top: 10px;
     padding: 0;
     max-width: 390px;
-    background: lightgreen;
+    background: lightblue;
     font-size: 18px;
     text-align: center;
 }
@@ -57,3 +57,4 @@ img {
 .btn:hover {
     background: lightblue;
 }
+
