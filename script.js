@@ -84,8 +84,9 @@ btn.onclick = () => {
 //     }
 // }
 
-Telegram.WebApp.onEvent("mainButtonClicked", function() {
-    tg.sendData(item);
-})
+// Telegram.WebApp.onEvent("mainButtonClicked", function() {
+//     tg.sendData(item);
+// })
+
 
 
