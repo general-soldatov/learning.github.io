@@ -1,0 +1,47 @@
+body {
+    max-width: 390px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    font-family: 'Rubik Bubbles', cursive;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20231106/pngtree-top-view-of-ground-texture-on-fertile-soil-surface-in-natural-image_13764476.png");
+}
+
+#score {
+    font-weight: normal;
+    color: white;
+}
+
+#player, #bomb {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 100px;
+}
+
+#bomb {
+    display: none;
+}
+
+#result {
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    display: none;
+    width: 390px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
