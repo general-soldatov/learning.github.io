@@ -4,7 +4,7 @@ tg.expand()
 tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#FF8979";
 
-let result = "";
+result = "";
 
 let player = document.querySelector("#player");
 let score_label = document.querySelector("#score");
@@ -69,4 +69,5 @@ function lose_check() {
 Telegram.WebApp.onEvent("mainButtonClicked", function() {
     tg.sendData(result);
 })
+
 
