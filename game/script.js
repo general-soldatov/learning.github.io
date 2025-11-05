@@ -67,6 +67,7 @@ function lose_check() {
 }
 
 Telegram.WebApp.onEvent("mainButtonClicked", function() {
-    tg.sendData(result);
+    tg.sendData(results);
 })
+
 
