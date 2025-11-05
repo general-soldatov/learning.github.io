@@ -4,7 +4,7 @@ tg.expand()
 tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#FF8979";
 
-result = "";
+let results = "";
 
 let player = document.querySelector("#player");
 let score_label = document.querySelector("#score");
@@ -24,7 +24,7 @@ function win_check() {
         player.style.display = "none";
         result.style.display = "block";
         tg.MainButton.setText("Вы выиграли!");
-        result = "win";
+        results = "win";
         tg.MainButton.show();
         clearInterval(timer);
     }
@@ -60,14 +60,15 @@ function lose_check() {
         result.src = "https://i.pinimg.com/736x/b5/83/49/b583495e48a6b8ed40a388ee5c8e6d11.jpg";
         result.style.display = "block";
         tg.MainButton.setText("Вы проиграли!");
-        result = "lose";
+        results = "lose";
         tg.MainButton.show();
         clearInterval(timer);
     }
 }
 
 Telegram.WebApp.onEvent("mainButtonClicked", function() {
-    tg.sendData(result);
+    tg.sendData(results);
 })
+
 
 
